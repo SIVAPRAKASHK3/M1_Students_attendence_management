@@ -78,7 +78,7 @@ printf("\n");
 printf(" \t \t \t \t \t \t MAIN MENU  \n \n \t \t \t 1.Add Attendence \n \t \t \t  2.Retrive Total Days Present \n \t \t \t   3.Attendence Percentage \n \t \t \t    4. The Attendence Eligibility \n \t \t \t     5.Student's Remarks \n \t \t \t ");
 int n;Check
 scanf("%d",&n);
-if(n>=1&n<=5){
+if(n>=1&&n<=5){
 an();
 switch(n){
     case 1:
