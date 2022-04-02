@@ -25,6 +25,7 @@ A brief description of what this project does and who it's for
 * Codiga - Static Analysis
 [![Quality](https://api.codiga.io/project/32077/score/svg)](https://app.codiga.io/project/32357/dashboard)
 * Build with LINUX [![Build with LINUX](https://github.com/SIVAPRAKASHK3/M1_Students_attendence_management/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SIVAPRAKASHK3/M1_Students_attendence_management/actions/workflows/c-cpp.yml)
+* CPPCHECK [![Analysis](https://github.com/SIVAPRAKASHK3/M1_Students_attendence_management/actions/workflows/analsis.yml/badge.svg)](https://github.com/SIVAPRAKASHK3/M1_Students_attendence_management/actions/workflows/analsis.yml)
 ## Installation
 
 *   VISUAL STUDIO CODE.
