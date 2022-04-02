@@ -140,7 +140,7 @@ int add(){
         else if(!check(x))
             {
                 printf("Enter the correct value \n");
-                arr[20]=NULL;
+                arr[20]={0};
                 add();
             }
        enter(x);
