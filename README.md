@@ -1,5 +1,5 @@
 
-# STUDENTS ATTENDENCE CALCULATION
+# M1_STUDENTS_ATTENDENCE_MANAGEMENT
 
 A brief description of what this project does and who it's for
 
