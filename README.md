@@ -24,6 +24,7 @@ A brief description of what this project does and who it's for
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b258b90529834e13be4eaa38b5c96d60)](https://app.codacy.com/organizations/gh/SIVAPRAKASHK3/repositories)
 * Codiga - Static Analysis
 [![Quality](https://api.codiga.io/project/32077/score/svg)](https://app.codiga.io/project/32357/dashboard)
+* Build with LINUX [![Build with LINUX](https://github.com/SIVAPRAKASHK3/M1_Students_attendence_management/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SIVAPRAKASHK3/M1_Students_attendence_management/actions/workflows/c-cpp.yml)
 ## Installation
 
 *   VISUAL STUDIO CODE.
