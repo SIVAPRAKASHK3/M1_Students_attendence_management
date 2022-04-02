@@ -140,6 +140,7 @@ int add(){
         else if(!check(x))
             {
                 printf("Enter the correct value \n");
+                arr[20]=0;
                 add();
             }
        enter(x);
@@ -283,8 +284,8 @@ void attendence_eligibility(){
     if(percent_check(roll,number_of_working_days)==1){
         printf("[ %s ] is Eligible for exam",dup[roll-1]);
     }
-    else
-        printf("[ %s ] Not Eligible for exam percentage is below 75",dup[roll-1]);}
+    else{
+        printf("[ %s ] Not Eligible for exam percentage is below 75",dup[roll-1]);}}
         printf("\nDo you want to check for one more... if yes type y else n or anykey  y/n ");
     scanf("%c",&ch1);
     scanf("%c",&ch);

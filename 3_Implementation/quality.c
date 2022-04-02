@@ -13,12 +13,13 @@ void setUp(void){
 void tearDown(void){
 
 }
-int fircheck(int roll_no,int days,int exp){
-    if(pers(roll_no,days)==exp)
-    return 1;
-    else 
-    return 0;
-}
+// int fircheck(int roll_no,int days,int exp){
+//     if(pers(roll_no,days)==exp){
+//     return 1;
+//     }
+
+//     return 0;
+// }
 int seccheck(int roll,int days,int expect){
 	int x=attendence_cal(roll,days);
 	if(expect==x)
@@ -43,17 +44,17 @@ void quality4(){
     TEST_ASSERT_EQUAL(1,seccheck(5,5,100));
     TEST_ASSERT_EQUAL(1,seccheck(2,4,50));
     TEST_ASSERT_EQUAL(0,seccheck(0,0,10));}
-void quality5(){
-    TEST_ASSERT_EQUAL(0,fircheck(1,2,1));//expect less than 75% 1 else 0
-    TEST_ASSERT_EQUAL(1,fircheck(2,2,0));
-    TEST_ASSERT_EQUAL(0,fircheck(3,2,1));
-}
+// void quality5(){
+//     TEST_ASSERT_EQUAL(0,fircheck(1,2,1));//expect less than 75% 1 else 0
+//     TEST_ASSERT_EQUAL(1,fircheck(2,2,0));
+//     TEST_ASSERT_EQUAL(0,fircheck(3,2,1));
+// }
 
 
 int test_code(){
     UnityBegin(NULL);
     RUN_TEST(quality1);
-     RUN_TEST(quality2); RUN_TEST(quality3); RUN_TEST(quality4);RUN_TEST(quality5);
+     RUN_TEST(quality2); RUN_TEST(quality3); RUN_TEST(quality4);
     return (UnityEnd());
 } 
 

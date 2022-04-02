@@ -3,9 +3,10 @@ extern void add();
 extern int attendence_eligibility(int ro_no,int num_days);
 int pers(int roll,int numdays){
     add();
-if(attendence_eligibility(roll,numdays)==1)
+if(attendence_eligibility(roll,numdays)==1){
+    
 return 1;
-else
+}
 return 0;
 }
 // int main(){
