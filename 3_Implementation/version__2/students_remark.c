@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 char chat[200];
 void sample();
 void remark();
@@ -14,13 +15,13 @@ void remark(){
 	switch(itr){
 		case 1:
 			display();
-		        printf("Navigate to menu type ? y/n ");
+		        printf("\n Navigate to menu type ? y/n ");
 		        scanf("%c",&ch1);
 		        scanf("%c",&ch);
 		        if(ch=='y')
 		            menu();
 		        else
-		            printf("Thank you");
+		            printf("\n Thank you");
 					break;
 		case 2:
 			sample();
@@ -30,7 +31,7 @@ void remark(){
 void sample(){
 //	char ch=' ';
 //	char ch1=' ';
-	printf("FORMATE -> FIRST ROLL NUMBER FOLLOWED BY - THEN TYPE YOUR MESSEGE AT END CLOSE WITH | AT THE END OF REMARK CLOSE WITH @ \nEXAMPLE :1-IN ATTENTIV|2.TALKATTIVE@\n");
-scanf("%100s",chat);
+	printf("FORMATE -> (Don't use space) FIRST ROLL NUMBER FOLLOWED BY - THEN TYPE YOUR MESSEGE AT END CLOSE WITH | AT THE END OF REMARK CLOSE WITH @ \nEXAMPLE :1-IN ATTENTIV|2.TALKATTIVE@\n");
+scanf("%s",chat);
 cpy();
 }

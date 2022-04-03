@@ -64,7 +64,7 @@ void cpy(void){
 	char ch=' ';
 	char ch1=' ';
 	strcpy(chat_org,chat);
-	printf("Navigate to menu TYPE ? y/n ");
+	printf("\n Navigate to menu TYPE ? y/n ");
     scanf("%c",&ch1);
     scanf("%c",&ch);
     if(ch=='y'||ch=='Y')
@@ -83,6 +83,8 @@ void display(void){
 		}
 		else if(chat_org[i]=='@')
 		break;
+		else if(chat_org[i]=='_')
+		continue;
 		else
 		printf("%c",chat_org[i]);
 	}
