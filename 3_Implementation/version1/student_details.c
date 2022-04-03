@@ -141,7 +141,7 @@ int add(){
             {
                 printf("Enter the correct value \n");
             //    setValue(a,0);
-		arr[]=0;
+		//arr[]=0;
                 add();
             }
        enter(x);
