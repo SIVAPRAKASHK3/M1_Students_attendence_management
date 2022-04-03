@@ -39,26 +39,25 @@
 ## WHAT
   * It is a simple Student Attendence Management Systems.
 ## WHY
-  * The main objective of this project is to manage the Bank account throught online.
+  * The main objective of this project is to add,retrive,check percentage ,eligiblity and remarks.
 ## WHO
-  * People who need to manage their Bank account, View their account details and account balance throught online are the end user.
+  * People who need to manage add attendence , View attendence,checking percentage and remark throught online for the user.
 ## WHERE
-  * This project mainly comes in use in places like ATM, Banks and even in the online Bank transaction system.
+  * This project mainly comes in use in places like schools  and education institution in the Attendence Management system.
 ## HOW
-  * This project is implemented using "c program" and uses traditional file systems and not database system. This project also make use of the structure where user defined variables are present.
+  * This project is implemented using "c program" and uses recusive,fuction call and pointers.
 
 # SWOT ANALYSIS OF THE PROJECT
  ## STRENGTHS:
    * Easily Accessible
    * Platform Independant
    * Ease of use
-   * Guidance Availability
 ## WEAKNESS:
-   * No Database only Traditional File System
-   * Timescale and Deadline
+   * No Database
+   * student name is pre defined
    * Process and System
-   * Post training required
 ## OPPORTUNITIES:
+   * Implementation of various tools
    * Skill Development
    * Quick Solution for the problem
    * Standardized process
@@ -66,4 +65,25 @@
    * Competitve work
    * Security concerns
    * Hardware issue
+
+
+
+# Detail Requirements
+
+## High Level Requirements:
+
+|  ID   | Description | Status (Implemented/In Future) |
+| ----- | ----------- | ------------------------------ |
+| HLR 1 |    Login    |  Implemented  |
+| HLR 2 |    Add Attendence  | Implemented |
+| HLR 3 |    Retrive Attendence   | Implemented |
+| HLR 4 |   Percentage check and eligibility| Implemented
+| HLR 5 |   Name of students from user  | In Future |
+
+## Low Level Requirements:
+
+|  ID   | Description | Status (Implemented/ In Future) |
+| ----- | ----------- | ------------------------------- |
+| LLR 1 |    Displaying attendence,remarks  |  Implemented  |
+| LLR 2 |    Delete Name or Roll number. | In Future |
 
